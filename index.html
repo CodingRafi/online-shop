@@ -1,0 +1,1633 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/jumbo.css">
+
+    <style>
+      #palingbesar2 #cardbodybio a{
+        color: black;
+      }
+
+      #palingbesar2 #cardbodybio a:hover{
+        color: #BB2020;
+      }
+
+      #modalBody #metodeBayar .card{
+        transition: 0.5s;
+      }
+
+      #modalBody #metodeBayar .card:hover{
+        transform: translateY(-8px);
+        transition: 0.5s;
+        background-color: #F2EEB3;
+        box-shadow: 0 1px 3px rgb(0 0 0);
+        cursor: pointer;
+      }
+    </style>
+
+    <title>Starbhak Shop</title>
+  </head>
+  <body id="body">
+
+<div class="sangatBesarSekali" id="sangatBesarSekali">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="height: 60px;z-index: 99999;" id="navbar">
+        <div class="container">
+        <a class="navbar-brand" href="#" style="font-family: 'Hina Mincho', serif;color: #161515;">Starbhak Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link mr-2" href="#" id="home">Home</a>
+            <a class="nav-link" href="#" id="profile">Profile</a>
+          </div>
+        </div>
+    </div>
+    </nav>
+
+    <div id="superBesar" >
+
+
+    <div id="palingBesar">
+
+
+
+
+    <div class="jumbotron jumbotron-fluid">
+      <section>
+        <div class="skewed"></div>
+      </section>
+        <div class="container1" style="font-family: 'Lobster', cursive;" id="main1">
+          <h5 style="font-size: 50px;margin-top: 15%;text-shadow: -2px -2px #C9C9C9;color: #1A1A1A;">Trend Busana Muslim</h5>
+          <h5 style="font-size: 50px;text-shadow: -2px -2px #C9C9C9;color: #1A1A1A;">2022</h5>
+          <h5 style="font-size: 60px;text-shadow: -2px -2px #C9C9C9;color: #1A1A1A;margin-bottom: 40px;">Bigsale 50%</h5>
+          <a href="#konten" style="font-size: 40px;text-shadow: -3px -3px black;color: whitesmoke;background: #025959;padding:20px;margin-top: 20px;" id="beli4" class="rounded-pill">Beli Sekarang</a>
+        </div>
+        <div class="container2">
+            <div class="bungkus">
+            </div>
+            <img src="img/c.png" alt="">
+        </div>
+      </div>
+
+      
+      <div class="container" id="konten">
+        <a class="mb-5" href="#" style="font-family: 'Hina Mincho', serif;margin-left: 40%;font-size: 40px;margin-bottom: 10px;text-decoration: none;color: black;">Starbhak Shop</a>
+        <h5 style="font-family: 'Hina Mincho', serif;margin-left: 16%;font-size: 20px;margin-bottom: 10px;color: black;">Toko Online Baju Muslim Yang Teruji Kualitasnya. Ayo Belanja Baju Muslim Di Starbhak Shop.....</h5>
+          <div class="row justify-content-center">
+                <div class="input-group mb-3 mt-3" style="width: 60%;">
+                    <input type="text" class="form-control" placeholder="Cari Apa" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputCari" autocomplete="off">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-info badge-primary" type="button" id="button-addon2" onclick="cari()">Search</button>
+                    </div>
+                </div>
+          </div>
+          
+
+          <div class="container">
+            <div class="row" id="list-produk">
+              
+            </div>
+          </div>
+          
+    
+
+
+
+
+    </div>
+
+
+    </div>
+
+
+    <div id="palingbesar2" style="display:none;width: 100%;height: auto;" style="background: #E6F3FF;">
+      <div class="palingBesar3" style=" background: #E6F3FF;" id="palingBesar3">
+      <div class="container-fluid" style="height: 100vh;">
+          <div class="row" style="height: 100%;">
+            <div class="col-md-3" style="display: flex;align-items: center;justify-content: center;">
+              <div class="card mb-3" style="max-width: 16rem;height: 450px;margin-top: 70px;min-width: 16rem;box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;border-radius: 12px;background: rgb(255,255,255);" >
+                <div class="card-header text-center bg-white" style="min-width: 100px;border-radius: 12px" id="cardBio">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-1">
+                        <img src="img/12.png" class="rounded-circle text-center" alt="..." style="width: 70px;">
+                      </div>
+                      <div class="col-9 align-self-center text-center mt-2">
+                        <h5 class="">Rafi</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body text-primary" id="cardbodybio">
+
+
+              <div class="container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-1">
+                      <img src="img/point.png" alt="" style="width: 25px;">
+                    </div>
+                    <div class="col">
+                      <h5 class="card-title" style="font-size: 14px;width: 80%;padding: 5px;border-radius: 6px;color: black;padding-left: 11px;">Toko Points</h5>
+                    </div>
+                  </div>
+                </div> 
+                
+                  <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-6">
+                          <P class="card-title text-dark" style="font-size: 12px;margin-left: -15px;">Toko Points</P>
+                        </div>
+                        <div class="col" style="margin-top: -5px;">
+                          <span class="mr-auto text-dark" style="font-size: 12px;">: Rp <span id="duit12">0</span></span>
+                        </div>
+                        <span class="mr-auto text-dark" style="margin-left: 110px;width: 30%;height: 10px;font-size: 12px;margin-top: -10px;"><small><span id="poin">0</span> Points</small></span>
+                      </div>
+                  </div>
+
+                  <div class="container" style="margin-top: 13px;">
+                    <div class="row">
+                      <div class="col-1">
+                        <img src="img/wallet.png" alt="" style="width: 25px;">
+                      </div>
+                      <div class="col">
+                        <h5 class="card-title" style="font-size: 14px;width: 70%;padding: 5px;border-radius: 6px;padding-left: 11px;color: black;">Saldo</h5>
+                      </div>
+                    </div>
+                  </div> 
+                  
+                    <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-6">
+                            <P class="card-title text-dark" style="font-size: 12px;margin-left: -15px;">Saldo</P>
+                          </div>
+                          <div class="col" style="margin-top: -5px;">
+                            <span class="mr-auto text-dark" style="font-size: 12px;">: Rp 0</span>
+                          </div>
+                        </div>
+                    </div>
+
+                  <div class="container" style="margin-top: 10px;" id="containersatu">
+                    <div class="row">
+                      <div class="col-2">
+                        <img src="img/checklist.png" alt="" style="width: 25px;">
+                      </div>
+                      <div class="col">
+                        <a href="#" class="card-title" style="font-size: 14px;text-decoration: none;margin-left: 10px;" id="bio90 pesananSaya">Pesanan Saya</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="container" style="margin-top: 10px;">
+                    <div class="row">
+                      <div class="col-2">
+                        <img src="img/ringing.png" alt="" style="width: 25px;">
+                      </div>
+                      <div class="col">
+                        <a href="#" class="card-title" style="font-size: 14px;text-decoration: none;margin-left: 10px;" id="bio90">Nontifikasi</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="container" style="margin-top: 10px;">
+                    <div class="row">
+                      <div class="col-2">
+                        <img src="img/voucher.png" alt="" style="width: 25px;">
+                      </div>
+                      <div class="col">
+                        <a href="#" class="card-title" style="font-size: 14px;text-decoration: none;margin-left: 10px;" id="bio90">Voucer Saya</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="container" style="margin-top: 10px;">
+                    <div class="row">
+                      <div class="col-2">
+                        <img src="img/settings.png" alt="" style="width: 25px;">
+                      </div>
+                      <div class="col">
+                        <a href="#" class="card-title" style="font-size: 14px;text-decoration: none;margin-left: 10px;" id="bio90">Pengaturan</a>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9" style="display: flex;justify-content: center;align-items: center;margin-left: -15px;">
+
+              <div class="card text-center" style="width: 100%;height: 83%;margin-top: 45px;border-radius: 12px;">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active 132" href="#" id="biodata">Biodata Diri</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link 132" href="#" id="belumBayar">Belum Bayar</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link 132" href="#" id="kemas">Dikemas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link 132" href="#" id="kirim">Dikirim</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link 132" href="#" id="history">History Belanja</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body" id="bio4212" style="max-height: 415px;">
+                
+                  <div class="container" id="pembungkus1">
+                    <div class="row">
+                      <div class="col-4" style="height: 300px;">
+                        <div class="container-fluid" >
+                          
+                          <div class="card" style="width: 14rem;box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;border-radius: 12px;background: rgb(255,255,255);" >
+                            <div class="container d-block" style="min-height: 170px;margin-bottom: 10px">
+                              <img src="img/12.png" class="card-img-top rounded" alt="..." style="width: 140px;padding-bottom: 20px;box-sizing: border-box;box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;border-radius: 12px;padding: 10px;margin-top: 15px;">
+                            </div>
+                            
+                            
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-8">
+
+                        <div class="container-fluid" style="height: 100%;">
+                        
+
+                      <div class="container-fluid">
+                        <div class="container">
+                        <div class="row">
+                          
+                          <div class="card" style="width: 100%;height:auto;margin-left: -50px;border: none;">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-weight: 700;font-size: 1.1rem;text-align: start;">Biodata Diri</h5>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Nama : Muhamad Rafi Prasetya</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Tanggal Lahir : 14 - 08 - 2005</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Jenis Kelamin : Laki Laki</p>
+                              
+                              <h5 class="card-title" style="font-weight: 700;font-size: 1.2rem;text-align: start;">kontak</h5>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Email : muhamadrafi1408@gmail.com</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">No Telp : 081574434628</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;" >Alamat : <span id="alamat">Jalan Gotong Royong, Tapos , Kota Depok, Jawa Barat</span> </p>
+                              
+
+
+                            </div>
+                          </div>
+
+                        </div>
+                        </div>
+                        
+                        
+                      </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="card-footer bg-transparent border-success" style="display: none;height: 110px;overflow: auto;" id="bayar122">
+                  <div class="container d-flex justify-content-center" >
+                    <table width="50%">
+                      <tr>
+                        <td>Diskon   </td>
+                        <td>: <span id="diskon">0</span></td>
+                      </tr>
+                      <tr>
+                        <td>Pajak   </td>
+                        <td>: <span id="pajak">0</span></td>
+                      </tr>
+                      <tr class="bg-primary text-white">
+                        <td style="padding: 5px;border-top-left-radius: 8px;border-bottom-left-radius: 8px;padding-left: 15px;" >Total Belanjaan Anda   </td>
+                        <td style="border-top-right-radius: 8px;border-bottom-right-radius: 8px;padding-right: 8px;">: <span id="totalBayar">0</span></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                </div>
+
+              </div>
+                      
+                    
+                </div>
+                
+              </div>
+
+              <!-- Modal -->
+              <div class="modal fade bg-primary" id="detail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" style="margin-top: 70px;">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Detail Pesanan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" id="modal-body detail156">
+                    
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary justify-content-center" data-dismiss="modal" style="width: 90%;margin-right: 5%;">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" style="margin-top: 90px;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Pesanan Anda</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="modalBody" style="overflow: auto;max-height: 350px;">
+
+                
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="checkout">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+    </div>
+
+</div>
+
+<div class="sangatBesarSekali2" id="sangatBesarSekali2" style="display: none;background-color: #E6F3FF;">
+    <div class="container d-flex align-items-center" style="height: 100vh;" id="container92510">
+      
+    </div>
+</div>
+
+<div class="sangatBesarSekali3" style="display: none;" id="sangatBesarSekali3">
+    <div class="container" style="margin-top: 10%;margin-left: 25%;">
+      <div class="container">
+
+        <div class="card" style="width: 50%;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Scan Disini</h5>
+            
+            <img src="img/barcode-306926_640.png" alt="" style="width: 300px;margin-left: 20%;" class="d-flex justify-content-center">
+            
+            <button type="button" class="btn btn-outline-success" style="margin-left: 80%;" id="kembaliBelanja">Kembali</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" id="selesaiBayar12" style="margin-left: 90%;
+    opacity: 0.1;">Selesai</button>
+</div>
+
+<div class="sangatBesarSekali4" style="display: none;" id="sangatBesarSekali4">
+  <div class="container" style="margin-top: 7%;margin-left: 25%;">
+    <div class="container">
+
+      <div class="card" style="width: 50%;">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Scan Disini</h5>
+          
+          <img src="img/qr-code-157182_640.png" alt="" style="width: 300px;margin-left: 20%;" class="d-flex justify-content-center">
+          
+          <button type="button" class="btn btn-outline-success" style="margin-left: 80%;margin-top: 15px;" id="kembaliBank">Kembali</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <button type="button" class="btn btn-primary" id="selesaiBayar13" style="margin-left: 90%;
+  opacity: 0.1;">Selesai</button>
+</div>
+
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script>
+      
+        let namaBarang = [
+          ["Snowshop Gamis Syari Dress Dilla", "Lona Maxi/Gamis Muslim/Gamis Dewasa", "Aliya Gamis Tulle / Gamis ORIGINAL / M L XL", "Squire Maxy/Dress Muslim Wanita/Dress Katun Kotak","SALSABILA.ID GAMIS AGATHA BAHAN BABYTERRY TERBARU 2021"],
+          ["Pakaian Baju Koko Qurta Anak Laki-Laki","KOKO ZAKA ANAK KIDS Terbaru 2021", "Baju Koko Anak Umur 8 - 14 Tahun Motif Tanduk Rusa"],
+          ["Baju Koko Adidazz","Baju Koko Muslim Pria Baja koko kurta","Koko Tojiro, Baju Koko Pria Muslim Terbaru"],
+          ["FM01 HIJAB BELLA SQUARE POLLYCOTTON","HIJAB SEGIEMPAT VOAL WATER SPLASH","KEKINIAN/HIJAB KHIMAR BERGO","Bergo Alisa Ped Syar'i Instan","PASMINA PLISKET PASHMINA CERUTY BABYDOLL PREMIUM"]
+        ];
+        let hargaBarang = [
+          [72_000,45_100,170_000,58_000,29_699],
+          [51_224,50_992,57_500],
+          [78_800,59_000,52_200],
+          [11_500,25_000,10_300,15_200,16_999]
+        ];
+        let gambarBarang = [
+           ["gamis1.jpg","gamis2.jpg","gamis3.jpg","gamis4.jpg","gamis5.jpg"],
+           ["kokoanak1.jpg", "kokoanak2.jpg", "kokoanak3.jpg"],
+           ["koko1.jpg", "koko2.jpg", "koko3.jpg"],
+           ["hijab1.jpg","hijab2.jpg","hijab3.jpg","hijab4.jpg","hijab5.jpg"]
+        ];
+
+        var namabarang_keranjang = [];
+        var hargaBarang_keranjang = [];
+        var gambarBarang_keranjang = [];
+        var jenisBarang =[];
+        var namaPengirim = [];
+        var namaPemesan = [];
+        var metodePembayaran = [];
+
+        var namabarang_dikemas = [];
+        var hargaBarang_dikemas = [];
+        var gambarBarang_dikemas = [];
+        var jenisBarang_dikemas =[];
+        var namaPengirim_dikemas = [];
+        var namaPemesan_dikemas = [];
+        var metodePembayaran_dikemas = [];
+
+        var alamat_tambah = [];
+
+        var namabarang_dikirim = [];
+        var hargaBarang_dikirim = [];
+        var gambarBarang_dikirim = [];
+        var jenisBarang_dikirim =[];
+        var namaPengirim_dikirim = [];
+        var namaPemesan_dikirim = [];
+        var metodePembayaran_dikirim = [];
+
+        var namabarang_histori = [];
+        var hargaBarang_histori = [];
+        var gambarBarang_histori = [];
+        var jenisBarang_histori =[];
+        var namaPengirim_histori = [];
+        var namaPemesan_histori = [];
+        var metodePembayaran_histori = [];
+
+        const listProduk = document.querySelector("#list-produk");
+        const listKeranjang = document.getElementById("listkeranjang");
+        const palingbesar2 = document.getElementById("palingbesar2");
+        const palingBesar = document.getElementById('palingBesar')
+        const tampilandiskon = document.getElementById("diskon");
+        const tampilanpajak = document.getElementById("pajak");
+        const tampilantotalBayar = document.getElementById("totalBayar");
+        const alamat = document.getElementById("alamat").textContent;
+        const modalBody = document.getElementById("modalBody");
+        const pembungkus1 = document.getElementById("pembungkus1");
+        const superBesar = document.getElementById('superBesar');
+        const navbarHome = document.getElementById("home");
+        const navbarProfile = document.getElementById("profile");
+        const biodata = document.getElementById("biodata");
+        const belumBayar = document.getElementById("belumBayar");
+        const kemas = document.getElementById("kemas");
+        const kirim = document.getElementById("kirim");
+        const history = document.getElementById("history");
+        const body17 = document.getElementById("bio4212")
+        const navLink = document.getElementsByClassName("132");
+        const pesananSaya = document.getElementById("bio90 pesananSaya");
+        const footer12 = document.getElementById("bayar122");
+        const besatSekali1 = document.getElementById("sangatBesarSekali");
+        const besatSekali2 = document.getElementById("sangatBesarSekali2");
+        let hasilCek = ""
+
+        function poin(){
+          let poinBarang = namabarang_histori.length*5;
+
+          const poin = document.getElementById("poin");
+          poin.innerHTML = "";
+          poin.innerHTML = `${poinBarang}`;
+
+          return poinBarang;
+        }
+
+        function duit() {
+          let duit = poin()*500;
+
+          const d12 = document.getElementById("duit12");
+          console.log(d12)
+          duit12.innerHTML = "";
+          duit12.innerHTML = `${duit}`;
+        }
+
+        navbarHome.addEventListener("click", function() {
+          superBesar.style.display = "block";
+            palingBesar.style.display = "block";
+            palingBesar.style.zIndex = "999";
+            palingbesar2.style.display = "none"
+        })
+        
+        navbarProfile.addEventListener("click", function() {
+            superBesar.style.display = "flex";
+            superBesar.style.justifyContent = "center";
+            palingBesar.style.display = "none";
+            
+            palingbesar2.style.display = "block";
+            palingbesar2.style.zIndex = "9999"
+            palingbesar2.classList.toggle("position-relative"); 
+        })
+        
+        window.addEventListener("scroll", function () {
+          const navbar = document.getElementById("navbar")
+          let windowposition = window.scrollY > 0; 
+          navbar.classList.toggle("scroll", windowposition);
+        });
+
+        function showListProduk(id) {
+            listProduk.innerHTML = "";
+
+            if(id == undefined){
+            namaBarang.forEach((el, i) => {
+              el.forEach((element, no) => {
+                listProduk.innerHTML += `
+                <div class="col-md-3" >
+                  <div class="card float-left mt-3" style="width: 15rem;" id="card">
+                      <img src="img/${gambarBarang[i][no]}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title" style="font-size:14px;">${element}</h5>
+                      <p class="card-text">Rp ${hargaBarang[i][no]}</p>
+                      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal" onclick="beli(${i}, ${no})">
+                        Beli Sekarang
+                      </button>
+                      </div>
+                  </div>
+              </div>`
+              })
+            })
+          }else{
+            namaBarang[id].forEach((element, i) => {
+                listProduk.innerHTML += `
+                <div class="col-md-3" >
+                  <div class="card float-left mt-3" style="width: 15rem;" id="card">
+                      <img src="img/${gambarBarang[id][i]}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title" style="font-size:14px;">${element}</h5>
+                      <p class="card-text">Rp ${hargaBarang[id][i]}</p>
+                      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal" onclick="beli(${id},${i})">
+                        Beli Sekarang
+                      </button>
+                      </div>
+                  </div>
+              </div>`
+            })
+          }
+
+        }
+
+        function cari() {
+            let inputCari = document.getElementById("inputCari").value;
+            inputCari = inputCari.toLowerCase();
+            
+            if(inputCari.includes("gamis")){
+              showListProduk(0)
+            }else if(inputCari.includes("koko anak")){
+              showListProduk(1);
+            }else if(inputCari.includes("koko")){
+              showListProduk(1);
+              showListProduk(2);
+            }else if(inputCari.includes("hijab")){
+              showListProduk(3);
+            }else if(inputCari == ""){
+              showListProduk()
+            } else{
+              alert("Maaf Produk Yang Anda Cari Tidak Tersedia");
+              showListProduk()
+            }
+        }
+
+        function namaPengirim1() {
+          let namaPengirim = Math.random();
+
+          if (namaPengirim <= 0.10){
+            namaPengirim = 'Pak Sumarno';
+          }else if (namaPengirim >= 0.11 && namaPengirim <= 0.20){
+            namaPengirim = 'Pak Rudi';
+          }else if (namaPengirim >= 0.21 && namaPengirim <= 0.30){
+              namaPengirim = "Pak Dodo"
+          }else if (namaPengirim >= 0.31 && namaPengirim <= 0.40){
+              namaPengirim = "Pak Rudo"
+          }else if (namaPengirim >= 0.41 && namaPengirim <= 0.50){
+              namaPengirim = "Pak Didi"
+          }else if (namaPengirim >= 0.51 && namaPengirim <= 0.60){
+              namaPengirim = "Pak Sumino"    
+          }else if (namaPengirim >= 0.61 && namaPengirim <= 0.70){
+              namaPengirim = "Pak Yato"
+          }else if (namaPengirim >= 0.71 && namaPengirim <= 0.80){
+              namaPengirim = "Pak Sumijon"
+          }else if (namaPengirim >= 0.81 && namaPengirim <= 0.90){
+              namaPengirim = "Pak Suman"
+          }else {
+            namaPengirim ='Pak Gatu';
+          }
+
+          return namaPengirim;
+        }
+
+        function cek1(i) {
+
+            let jenisBarang = "";
+            if(i === 0) {
+              return jenisBarang = "Baju Gamis"
+            }else if(i === 1) {
+              return jenisBarang = "Baju Koko Anak"
+            }else if(i === 2){
+              return jenisBarang = "Koko Dewasa"
+            }else{
+              return jenisBarang = "Hijab"
+            }
+
+            return jenisBarang
+          }
+
+        function beli(iAwal, iAkhir) {
+          
+          hasilCek = cek1(iAwal);
+
+          modalBody.innerHTML = "";
+          modalBody.innerHTML += `
+            <div class="card mb-3" style="max-width: 100%;" >
+                <div class="row no-gutters">
+                  <div class="col">
+                    <img src="img/${gambarBarang[iAwal][iAkhir]}" style="width:100%;">
+                  </div>
+                  <div class="col">
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size:15px;margin-top:10px;">${namaBarang[iAwal][iAkhir]}</h5>
+                      <p class="card-text" style="font-size:14px;">Jenis Barang : <span id="jenisBarang">${hasilCek}</span></p>
+                      <p class="card-text">Rp ${hargaBarang[iAwal][iAkhir]}</p>
+                      <h5 class="card-title" style="font-size:14px;">Nama Pemesan: <span id="namaPemesan">Rafi</span></h5>
+                      <h5 class="card-title" style="font-size:14px;">Nama Pengirim: <span id="namaPengirim">${namaPengirim1()}</span></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <label for="alamat12" style="margin-top:-10px;margin-buttom:-10px;">Alamat :</label>
+                </div>
+                <div class="col-9" style="width:100%;">
+                  <textarea name="" id="alamat12" style="width:100%;border:none;border-bottom: 1px solid black;">${alamat}</textarea>
+                </div>
+              </div>
+            </div>
+
+            <h1 style="margin-top: 10px;font-size: 1rem;text-align:center;">Metode Pembayaran</h1>
+            <div class="container">
+                <div class="row">
+                  <div class="container d-flex flex-wrap" id="metodeBayar">
+
+            <div class="card mb-3" style="width: 48%;margin-top: 8px;margin-left: 5px;">
+              <input type="hidden" value="alfamart" id="method">
+              <div class="row no-gutters shadow-sm">
+                <div class="col-md-4">
+                  <img src="img/alfamart.png" class="card-img-top" alt="..." style="padding-top: 10px;padding-left: 5px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-size: 13px;">Alfamart</h5>
+                    <p class="card-text" style="font-size: 10px;margin-top: -9px;">Metode pembayaran Alfamart</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="width: 48%;margin-top: 8px;margin-left: 5px;">
+              <input type="hidden" value="alfamidi" id="method">
+              <div class="row no-gutters shadow-sm">
+                <div class="col-md-4">
+                  <img src="img/alfamidi.png" class="card-img-top" alt="..." style="padding-top: 25px;padding-left: 5px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-size: 13px;">Alfamidi</h5>
+                    <p class="card-text" style="font-size: 10px;margin-top: -9px;">Metode pembayaran Alfamidi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="width: 48%;margin-top: 8px;margin-left: 5px;">
+              <input type="hidden" value="bca" id="method">
+              <div class="row no-gutters shadow-sm">
+                <div class="col-md-4">
+                  <img src="img/bca.png" class="card-img-top" alt="..." style="padding-top: 25px;padding-left: 5px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-size: 13px;">BCA</h5>
+                    <p class="card-text" style="font-size: 10px;margin-top: -9px;">Metode pembayaran BCA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="width: 48%;margin-top: 8px;margin-left: 5px;">
+              <input type="hidden" value="bni" id="method">
+              <div class="row no-gutters shadow-sm">
+                <div class="col-md-4">
+                  <img src="img/bni.jpeg" class="card-img-top" alt="..." style="padding-top: 25px;padding-left: 5px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-size: 13px;">BNI</h5>
+                    <p class="card-text" style="font-size: 10px;margin-top: -9px;">Metode pembayaran BNI</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="width: 48%;margin-top: 8px;margin-left: 5px;">
+              <input type="hidden" value="indomaret" id="method">
+              <div class="row no-gutters shadow-sm">
+                <div class="col-md-4">
+                  <img src="img/indomaret.png" class="card-img-top" alt="..." style="padding-top: 30px;padding-left: 5px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-size: 13px;">Indomaret</h5>
+                    <p class="card-text" style="font-size: 10px;margin-top: -9px;">Metode pembayaran Indomaret</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="width: 48%;margin-top: 8px;margin-left: 5px;">
+              <input type="hidden" value="bna" id="method">
+              <div class="row no-gutters shadow-sm">
+                <div class="col-md-4">
+                  <img src="img/bna.png" class="card-img-top" alt="..." style="padding-top: 35px;padding-left: 5px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-size: 13px;">BNA</h5>
+                    <p class="card-text" style="font-size: 10px;margin-top: -9px;">Metode pembayaran BNA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                      
+                      
+                    </div>
+                </div>
+            </div>
+              
+              `;
+
+              
+
+            const metodeBayar = document.querySelectorAll("#metodeBayar .card");
+            
+            metodeBayar.forEach((metode, jenis) => {
+              metode.addEventListener("click", function(){
+             
+                  for (let i7 = 0; i7 <= 6; i7++) {
+                    if(metodeBayar[i7] == undefined){
+                      "";
+                    }else{
+                      metodeBayar[i7].removeAttribute("style");
+                      metodeBayar[i7].setAttribute("style", "width: 48%;margin-top: 8px;margin-left: 5px;");
+                    }
+                }  
+
+              metodeBayar[jenis].style.backgroundColor = "#F2EEB3";
+              metodeBayar[jenis].style.transform = "translateY(-8px)";
+              metodeBayar[jenis].style.boxShadow = "0 1px 3px rgb(0 0 0)";
+                   
+                  
+              })
+            
+            })
+
+            const checkout = document.getElementById("checkout");
+            checkout.setAttribute("onclick", `add(${iAwal},${iAkhir})`);
+            checkout.setAttribute("data-dismiss", "modal")
+        }
+        
+        pesananSaya.addEventListener("click", function() {
+          pembungkus1.innerHTML = "";
+          hapusActive();
+          belumBayar.classList.add("active");
+
+          show()
+          
+          footer12.style.display = "block";
+        })
+       
+        function hapusActive() {
+          for (let i5 = 0; i5 < navLink.length; i5++) {
+            if(navLink[i5].className.includes("active")){
+             navLink[i5].classList.remove("active")
+           }
+          }  
+        }
+
+        biodata.addEventListener("click", function() {
+          pembungkus1.innerHTML = "";
+          hapusActive();
+          biodata.classList.add("active");
+          pembungkus1.innerHTML = ` <div class="row">
+                      <div class="col-4" style="height: 300px;">
+                        <div class="container-fluid" >
+                          
+                          <div class="card" style="width: 14rem;box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;border-radius: 12px;background: rgb(255,255,255);" >
+                            <div class="container d-block" style="min-height: 170px;margin-bottom: 10px">
+                              <img src="img/12.png" class="card-img-top rounded" alt="..." style="width: 140px;padding-bottom: 20px;box-sizing: border-box;box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;border-radius: 12px;padding: 10px;margin-top: 15px;">
+                            </div>
+                            
+                            
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-8">
+
+                        <div class="container-fluid" style="height: 100%;">
+                        
+
+                      <div class="container-fluid">
+                        <div class="container">
+                        <div class="row">
+                          
+                          <div class="card" style="width: 100%;height:auto;margin-left: -50px;border: none;">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-weight: 700;font-size: 1.1rem;text-align: start;">Biodata Diri</h5>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Nama : Muhamad Rafi Prasetya</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Tanggal Lahir : 14 - 08 - 2005</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Jenis Kelamin : Laki Laki</p>
+                              
+                              <h5 class="card-title" style="font-weight: 700;font-size: 1.2rem;text-align: start;">kontak</h5>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">Email : muhamadrafi1408@gmail.com</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;">No Telp : 081574434628</p>
+                              <p class="card-text mb-4 mt-4" style="text-align: start;font-size: .9rem;" >Alamat : <span id="alamat">Jalan Gotong Royong, Tapos , Kota Depok, Jawa Barat</span> </p>
+                              
+
+
+                            </div>
+                          </div>
+
+                        </div>
+                        </div>
+                        
+                        
+                      </div>
+
+                        </div>
+
+                      </div>
+                    </div>`;
+                    footer12.style.display = "none";
+        })
+
+        belumBayar.addEventListener("click", function() {
+          pembungkus1.innerHTML = "";
+          hapusActive();
+          belumBayar.classList.add("active");
+
+          show()
+          
+          footer12.style.display = "block";
+        })
+        
+        kemas.addEventListener("click", function() {
+          pembungkus1.innerHTML = "";
+          hapusActive();
+          kemas.classList.add("active");
+
+          tampilKemas();
+          footer12.style.display = "none";
+        })
+
+        kirim.addEventListener("click", function() {
+          pembungkus1.innerHTML = "";
+          hapusActive();
+          kirim.classList.add("active");
+
+          tampilkirim();
+          footer12.style.display = "none";
+        })
+
+        history.addEventListener("click", function() {
+          pembungkus1.innerHTML = "";
+          hapusActive();
+          history.classList.add("active");
+
+          tampilhistori();
+          footer12.style.display = "none";
+        })       
+
+        function add(i1, i2) {
+          const jenisBarang_keranjang = document.getElementById("jenisBarang").textContent;
+          const namaPemesan_keranjang = document.getElementById("namaPemesan").textContent;
+          const namaPengirim_keranjang = document.getElementById("namaPengirim").textContent;
+          
+          const alamat43 = document.getElementById("alamat12").value;
+
+            namabarang_keranjang.push(namaBarang[i1][i2]);
+            hargaBarang_keranjang.push(hargaBarang[i1][i2]);
+            gambarBarang_keranjang.push(gambarBarang[i1][i2]);
+            jenisBarang.push(jenisBarang_keranjang);
+            namaPemesan.push(namaPemesan_keranjang);
+            namaPengirim.push(namaPengirim_keranjang);
+            alamat_tambah.push(alamat43);
+          
+          const hasilBayar = document.querySelectorAll("#metodeBayar .card");
+          hasilBayar.forEach((card3, nom) => {
+            for (var iy = 0; iy <= 5; iy++) {
+              if(card3.style[iy] == "transform"){
+                var inputmetode = hasilBayar[nom].querySelector("#method").value;
+                metodePembayaran.push(inputmetode);
+              }
+              
+            }
+          })
+
+
+            if(namabarang_keranjang.length != metodePembayaran.length){
+              alert("Anda Belum Memilih Metode Pembayaran");
+
+              namabarang_keranjang.pop(namaBarang[i1][i2]);
+              hargaBarang_keranjang.pop(hargaBarang[i1][i2]);
+              gambarBarang_keranjang.pop(gambarBarang[i1][i2]);
+              jenisBarang.pop(jenisBarang_keranjang);
+              namaPemesan.pop(namaPemesan_keranjang);
+              namaPengirim.pop(namaPengirim_keranjang);
+
+            }else{
+              palingBesar.style.display = "none";
+              palingBesar.style.zIndex = "-999999"
+
+              const modalBackdrop = document.querySelector(".modal-backdrop");
+              modalBackdrop.style.backgroundColor = "white";
+
+              palingbesar2.style.display = "block";
+              palingbesar2.style.zIndex = "9999"
+              palingbesar2.classList.toggle("position-absolute");
+
+              show();
+              footer12.style.display = "block";
+
+              const bungkusGambar = document.getElementById("bungkusGambar");
+              const gambar = document.getElementById("gambar12")
+              gambar.addEventListener("onmouseover" ,function() {
+                gambar.style.padding = "0";
+              })
+
+              bungkusGambar.addEventListener("OnMouseOut" ,function() {
+                gambar.style.padding = "5px";
+              })
+
+            }
+        }
+
+        function detail1(id9) {
+          console.log(id9)
+          const modalDetail = document.getElementById("modal-body detail156");
+          modalDetail.innerHTML = "";
+          modalDetail.innerHTML += `
+            <div class="card mb-3" style="max-width: 100%;" >
+                <div class="row no-gutters">
+                  <div class="col">
+                    <img src="img/${gambarBarang_keranjang[id9]}" style="width:100%;">
+                  </div>
+                  <div class="col">
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size:15px;margin-top:10px;">${namabarang_keranjang[id9]}</h5>
+                      <p class="card-text" style="font-size:14px;">Jenis Barang : ${jenisBarang[id9]}</p>
+                      <p class="card-text">Rp ${hargaBarang_keranjang[id9]}</p>
+                      <h5 class="card-title" style="font-size:14px;">Nama Pemesan: ${namaPemesan[id9]}</h5>
+                      <h5 class="card-title" style="font-size:14px;">Nama Pengirim: ${namaPengirim[id9]}</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container">
+              <div class="row">
+                <div class="col-5">
+                  <label for="alamat12" style="margin-top:-10px;margin-buttom:-10px;" id="alamat23">Metode Pembayaran :</label>
+                </div>
+                <div class="col" style="width:100%;margin-left: -20px;">
+                  <p class="card-text">${metodePembayaran[id9]}</p>
+                </div>
+              </div>
+            </div>
+
+              <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <label for="alamat12" style="margin-top:-10px;margin-buttom:-10px;" id="alamat23">Alamat :</label>
+                </div>
+                <div class="col-9" style="width:100%;margin-left: -40px;">
+                  <p class="card-text">${alamat_tambah[id9]}</p>
+                </div>
+              </div>
+            </div>
+              
+              `;
+        }
+
+        function detail3(id901,gambar,nama,jenis,harga,namaPemesa,namaPengiri,metodeP) {
+          console.log(id901)
+          const modalDetail1 = document.getElementById("modal-body detail156");
+          modalDetail1.innerHTML = "";
+          modalDetail1.innerHTML += `
+            <div class="card mb-3" style="max-width: 100%;" >
+                <div class="row no-gutters">
+                  <div class="col">
+                    <img src="img/${gambar}" style="width:100%;">
+                  </div>
+                  <div class="col">
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size:15px;margin-top:10px;">${nama}</h5>
+                      <p class="card-text" style="font-size:14px;">Jenis Barang : ${jenis}</p>
+                      <p class="card-text">Rp ${harga}</p>
+                      <h5 class="card-title" style="font-size:14px;">Nama Pemesan: ${namaPemesa}</h5>
+                      <h5 class="card-title" style="font-size:14px;">Nama Pengirim: ${namaPengiri}</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container">
+              <div class="row">
+                <div class="col-5">
+                  <label for="alamat12" style="margin-top:-10px;margin-buttom:-10px;" id="alamat23">Metode Pembayaran :</label>
+                </div>
+                <div class="col" style="width:100%;margin-left: -20px;">
+                  <p class="card-text">${metodeP}</p>
+                </div>
+              </div>
+            </div>
+
+              <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <label for="alamat12" style="margin-top:-10px;margin-buttom:-10px;" id="alamat23">Alamat :</label>
+                </div>
+                <div class="col-9" style="width:100%;margin-left: -40px;">
+                  <p class="card-text">${alamat_tambah[id901]}</p>
+                </div>
+              </div>
+            </div>
+              
+              `;
+        }
+
+        function bayar(metode1, id6){
+
+          const containerbayar = document.getElementById("container92510");
+
+          containerbayar.innerHTML = "";
+          containerbayar.innerHTML = `
+          <div class="container-fluid" style="width: 50%;">
+
+              <div class="card" style="width: 100%;height: 100%;">
+                <div class="card-body">
+                  <h5 class="text-center" style="font-size:19px;">Pembayaran Pesanan ${namabarang_keranjang[id6]}</h5>
+
+                  <div class="card mb-3" style="max-width: 540px;min-height:85%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="img/${gambarBarang_keranjang[id6]}" alt="..." width="100%">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-size:1rem;">${namabarang_keranjang[id6]}</h5>
+                          <p class="card-text" style="font-size:14px">Nama Pemesan : ${namaPemesan[id6]}</p>
+                          <p class="card-text" style="font-size:14px">Nama Pengirim : ${namaPengirim[id6]}</p>
+                          <p class="card-text" style="font-size:14px">Jenis Barang : ${jenisBarang[id6]}</p>
+                          
+                          
+                          </div>
+                          
+                      </div>
+                    </div>
+
+                    <div class="container">
+                      <p class="card-text" style="font-size:14px;margin-left:16px;">Dty : 1</p>
+                      <div class="container" style="margin-top: 10px;">
+                                <div class="row">
+                                    <div class="col-4" style="font-size:14px">
+                                      Harga :
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="card-subtitle text-dark" style="font-size:14px;margin-top:-15px;margin-bottom: 12px;"><small><strike>Rp ${hargaBarang_keranjang[id6]}</strike></small></h6>
+                                        <h6 class="card-subtitle text-dark" style="font-size:15px;margin-top:-10px;">Rp ${harga1(hargaBarang_keranjang[id6])}</h6>
+                                      </div>
+                                    </div>
+                                </div>
+
+                      <p class="card-text" style="font-size:14px;margin-left:16px;margin-top: 10px;margin-bottom:10px;">Metode Pembayaran : ${metode1}</p>
+                      <p class="card-text" style="font-size:14px;margin-left:16px;margin-top: 10px;">Alamat : ${alamat_tambah[id6]}</p>
+
+                      <div class="container">
+                        <div class="row" style="margin-bottom:15px;">
+                          <div class="col-6">
+                            <button type="button" class="btn btn-secondary btn-block" id="batalBayar">Batal</button>
+                          </div>
+                          <div class="col">
+                            <button type="button" class="btn btn-primary btn-block" id="jadiBayar">Bayar</button>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>  
+
+                  </div>
+                  
+                </div>
+              </div>
+
+              </div>
+              </div>`;
+
+          besatSekali1.style.display = "none";
+          besatSekali2.style.display = "block";
+
+          const batalBayar = document.getElementById("batalBayar");
+          batalBayar.addEventListener("click", function() {
+            besatSekali1.style.display = "block";
+            besatSekali2.style.display = "none";
+          })
+
+          const jadiBayar = document.getElementById("jadiBayar");
+          const sangatBesarSekali3 = document.getElementById("sangatBesarSekali3");
+          const sangatBesarSekali4 = document.getElementById("sangatBesarSekali4");
+          jadiBayar.addEventListener("click", function() {
+            if(metode1 == "alfamart" || metode1 == "alfamidi" || metode1 == "indomaret"){
+              sangatBesarSekali.style.display = "none";
+              sangatBesarSekali2.style.display = "none";
+              sangatBesarSekali3.style.display = "block";
+              sangatBesarSekali4.style.display = "none";
+
+              const kembaliBel = document.getElementById("kembaliBelanja");
+              kembaliBel.addEventListener("click", function() {
+                sangatBesarSekali.style.display = "none";
+                sangatBesarSekali2.style.display = "block";
+                sangatBesarSekali3.style.display = "none";
+                sangatBesarSekali4.style.display = "none";
+              })
+
+              const selesaibayar12 = document.getElementById("selesaiBayar12");
+              selesaibayar12.addEventListener("click", function() {
+                namabarang_dikemas.push(namabarang_keranjang[id6]);
+                hargaBarang_dikemas.push(hargaBarang_keranjang[id6]);
+                gambarBarang_dikemas.push(gambarBarang_keranjang[id6]);
+                jenisBarang_dikemas.push(jenisBarang[id6]);
+                namaPengirim_dikemas.push(namaPengirim[id6]);
+                namaPemesan_dikemas.push(namaPemesan[id6]);
+                metodePembayaran_dikemas.push(metodePembayaran[id6]);
+
+                tampilKemas();
+
+                sangatBesarSekali.style.display = "block";
+                sangatBesarSekali2.style.display = "none";
+                sangatBesarSekali3.style.display = "none";
+                sangatBesarSekali4.style.display = "none";
+
+                namabarang_keranjang.splice(id6, 1);
+                hargaBarang_keranjang.splice(id6,1);
+                gambarBarang_keranjang.splice(id6,1);
+                jenisBarang.splice(id6,1)
+                namaPengirim.splice(id6,1);
+                namaPemesan.splice(id6,1);
+                metodePembayaran.splice(id6,1);
+
+                footer12.style.display ="none";
+              })
+
+            }else{
+              sangatBesarSekali.style.display = "none";
+              sangatBesarSekali2.style.display = "none";
+              sangatBesarSekali3.style.display = "none";
+              sangatBesarSekali4.style.display = "block";
+
+              const kembaliBan = document.getElementById("kembaliBank");
+              kembaliBan.addEventListener("click", function() {
+                sangatBesarSekali.style.display = "none";
+                sangatBesarSekali2.style.display = "block";
+                sangatBesarSekali3.style.display = "none";
+                sangatBesarSekali4.style.display = "none";
+              })
+
+              const selesaibayar13 = document.getElementById("selesaiBayar13");
+              selesaibayar13.addEventListener("click", function(){
+                namabarang_dikemas.push(namabarang_keranjang[id6]);
+                hargaBarang_dikemas.push(hargaBarang_keranjang[id6]);
+                gambarBarang_dikemas.push(gambarBarang_keranjang[id6]);
+                jenisBarang_dikemas.push(jenisBarang[id6]);
+                namaPengirim_dikemas.push(namaPengirim[id6]);
+                namaPemesan_dikemas.push(namaPemesan[id6]);
+                metodePembayaran_dikemas.push(metodePembayaran[id6])
+
+                tampilKemas()
+
+                sangatBesarSekali.style.display = "block";
+                sangatBesarSekali2.style.display = "none";
+                sangatBesarSekali3.style.display = "none";
+                sangatBesarSekali4.style.display = "none";
+
+                namabarang_keranjang.splice(id6, 1);
+                hargaBarang_keranjang.splice(id6,1);
+                gambarBarang_keranjang.splice(id6,1);
+                jenisBarang.splice(id6,1)
+                namaPengirim.splice(id6,1);
+                namaPemesan.splice(id6,1);
+                metodePembayaran.splice(id6,1);
+
+                footer12.style.display ="none";
+              })
+
+            } 
+          })
+          
+        }
+
+        function tampilKemas() {
+            hapusActive();
+            kemas.classList.add("active");
+            pembungkus1.classList.add("d-flex");
+            pembungkus1.innerHTML = "";
+            pembungkus1.setAttribute("style", "flex-wrap:wrap");
+            
+
+            namaPemesan_dikemas.forEach((elemt, id91) => {
+                   
+              if(gambarBarang_dikemas[id91] == undefined) {
+                "";
+              }else {
+
+              pembungkus1.innerHTML += ` 
+              <div class="card mb-3 border border-primary" style="width: 49%;" id="card234">
+                      <div class="row no-gutters" >
+                        <div class="col-md-4 border-right" id="bungkusGambar">
+                          <img src="img/${gambarBarang_dikemas[id91]}" alt="..." style="width:100%;" id="gambar12">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body" style="padding:1rem;">
+                            <h5 class="card-title text-dark" style="font-size: 14px;margin-top:-10px;">${namabarang_dikemas[id91]}</h5>
+                            <div class="container" style="margin-top:20px;">
+                                <div class="row">
+                                    <div class="col-4">
+                                      <p style="margin-top:-10px;color:black;font-size:13px;">Dty : 1</p>
+                                    </div>
+                                    <div class="col">
+                                      <h6 class="card-subtitle text-dark" style="font-size:14px;margin-top:-15px;margin-bottom: 12px;"><small><strike>Rp ${hargaBarang_dikemas[id91]}</strike></small></h6>
+                                      <h6 class="card-subtitle text-dark" style="font-size:15px;margin-top:-10px;">Rp ${harga1(hargaBarang_dikemas[id91])}</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                              <div class="d-flex justify-content-center" style="margin-bottom: -10px;margin-top:5px">
+                                    
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#detail" onclick="detail3(${id91},'${gambarBarang_dikemas[id91]}','${namabarang_dikemas[id91]}','${jenisBarang_dikemas[id91]}','${harga1(hargaBarang_dikemas[id91])}','${namaPemesan_dikemas[id91]}','${namaPengirim_dikemas[id91]}','${metodePembayaran_dikemas[id91]}')"  style="margin-right:10px">Detail</button>
+                                <button type="button" class="btn btn-success" onclick="dikirim(${id91})">Dikirim</button>
+                                 
+                              </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>`;
+
+                    const card1 = document.querySelectorAll("#card234");
+
+                    if(id91 % 2 == 1){
+                    card1[id91].classList.add("ml-2")
+                    }
+
+                    if(namabarang_keranjang.length > 4){
+                      body17.classList.add("overflow-auto");
+                    }
+
+                }
+
+            })
+        }
+
+        function tampilkirim() {
+            hapusActive();
+            kirim.classList.add("active");
+            pembungkus1.classList.add("d-flex");
+            pembungkus1.innerHTML = "";
+            pembungkus1.setAttribute("style", "flex-wrap:wrap");
+            
+
+            namaPemesan_dikirim.forEach((elemt2, id90) => {
+                   
+              if(gambarBarang_dikirim[id90] == undefined) {
+                "";
+              }else {
+
+              pembungkus1.innerHTML += ` 
+              <div class="card mb-3 border border-primary" style="width: 49%;" id="card234">
+                      <div class="row no-gutters" >
+                        <div class="col-md-4 border-right" id="bungkusGambar">
+                          <img src="img/${gambarBarang_dikirim[id90]}" alt="..." style="width:100%;" id="gambar12">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body" style="padding:1rem;">
+                            <h5 class="card-title text-dark" style="font-size: 14px;margin-top:-10px;">${namabarang_dikirim[id90]}</h5>
+                            <div class="container" style="margin-top:20px;">
+                                <div class="row">
+                                    <div class="col-4">
+                                      <p style="margin-top:-10px;color:black;font-size:13px;">Dty : 1</p>
+                                    </div>
+                                    <div class="col">
+                                      <h6 class="card-subtitle text-dark" style="font-size:14px;margin-top:-15px;margin-bottom: 12px;"><small><strike>Rp ${hargaBarang_dikirim[id90]}</strike></small></h6>
+                                      <h6 class="card-subtitle text-dark" style="font-size:15px;margin-top:-10px;">Rp ${harga1(hargaBarang_dikirim[id90])}</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                              <div class="d-flex justify-content-center" style="margin-bottom: -10px;margin-top:5px">
+                                    
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#detail" onclick="detail3(${id90},'${gambarBarang_dikirim[id90]}','${namabarang_dikirim[id90]}','${jenisBarang_dikirim[id90]}','${harga1(hargaBarang_dikirim[id90])}','${namaPemesan_dikirim[id90]}','${namaPengirim_dikirim[id90]}','${metodePembayaran_dikirim[id90]}')" style="margin-right:10px">Detail</button>
+                                <button type="button" class="btn btn-primary" onclick="histori(${id90})">Diterima</button>
+                                 
+                              </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>`;
+
+                    const card1 = document.querySelectorAll("#card234");
+
+                    if(id90 % 2 == 1){
+                    card1[id90].classList.add("ml-2")
+                    }
+
+                    if(namabarang_keranjang.length > 4){
+                      body17.classList.add("overflow-auto");
+                    }
+
+                }
+
+            })
+        }
+
+        function tampilhistori() {
+            hapusActive();
+            history.classList.add("active");
+            pembungkus1.classList.add("d-flex");
+            pembungkus1.innerHTML = "";
+            pembungkus1.setAttribute("style", "flex-wrap:wrap");
+            
+
+            namaPemesan_histori.forEach((elemt3, id96) => {
+                   
+              if(gambarBarang_histori[id96] == undefined) {
+                "";
+              }else {
+
+              pembungkus1.innerHTML += ` 
+              <div class="card mb-3 border border-primary" style="width: 49%;" id="card234">
+                      <div class="row no-gutters" >
+                        <div class="col-md-4 border-right" id="bungkusGambar">
+                          <img src="img/${gambarBarang_histori[id96]}" alt="..." style="width:100%;" id="gambar12">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body" style="padding:1rem;">
+                            <h5 class="card-title text-dark" style="font-size: 14px;margin-top:-10px;">${namabarang_histori[id96]}</h5>
+                            <div class="container" style="margin-top:20px;">
+                                <div class="row">
+                                    <div class="col-4">
+                                      <p style="margin-top:-10px;color:black;font-size:13px;">Dty : 1</p>
+                                    </div>
+                                    <div class="col">
+                                      <h6 class="card-subtitle text-dark" style="font-size:14px;margin-top:-15px;margin-bottom: 12px;"><small><strike>Rp ${hargaBarang_histori[id96]}</strike></small></h6>
+                                      <h6 class="card-subtitle text-dark" style="font-size:15px;margin-top:-10px;">Rp ${harga1(hargaBarang_histori[id96])}</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                              <div class="d-flex justify-content-center" style="margin-bottom: -10px;margin-top:5px">
+                                    
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#detail" onclick="detail3(${id96},'${gambarBarang_histori[id96]}','${namabarang_histori[id96]}','${jenisBarang_histori[id96]}','${harga1(hargaBarang_histori[id96])}','${namaPemesan_histori[id96]}','${namaPengirim_histori[id96]}','${metodePembayaran_histori[id96]}')"  style="margin-right:10px">Detail</button>
+                                 
+                              </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>`;
+
+                    const card1 = document.querySelectorAll("#card234");
+
+                    if(id96 % 2 == 1){
+                    card1[id96].classList.add("ml-2")
+                    }
+
+                    if(namabarang_keranjang.length > 4){
+                      body17.classList.add("overflow-auto");
+                    }
+
+                }
+
+                duit()
+
+            })
+        }
+
+        function dikirim(id01){
+          namabarang_dikirim.push(namabarang_dikemas[id01]);
+          hargaBarang_dikirim.push(hargaBarang_dikemas[id01]);
+          gambarBarang_dikirim.push(gambarBarang_dikemas[id01]);
+          jenisBarang_dikirim.push(jenisBarang_dikemas[id01]);
+          namaPengirim_dikirim.push(namaPengirim_dikemas[id01]);
+          namaPemesan_dikirim.push(namaPemesan_dikemas[id01]);
+          metodePembayaran_dikirim.push(metodePembayaran_dikemas[id01]);
+
+          tampilkirim();
+
+          namabarang_dikemas.splice(id01, 1);
+          hargaBarang_dikemas.splice(id01,1);
+          gambarBarang_dikemas.splice(id01,1);
+          jenisBarang_dikemas.splice(id01,1)
+          namaPengirim_dikemas.splice(id01,1);
+          namaPemesan_dikemas.splice(id01,1);
+          metodePembayaran_dikemas.splice(id01,1);
+        }
+
+        function histori(id085){
+          namabarang_histori.push(namabarang_dikirim[id085]);
+          hargaBarang_histori.push(hargaBarang_dikirim[id085]);
+          gambarBarang_histori.push(gambarBarang_dikirim[id085]);
+          jenisBarang_histori.push(jenisBarang_dikirim[id085]);
+          namaPengirim_histori.push(namaPengirim_dikirim[id085]);
+          namaPemesan_histori.push(namaPemesan_dikirim[id085]);
+          metodePembayaran_histori.push(metodePembayaran_dikirim[id085]);
+
+          tampilhistori();
+
+          namabarang_dikirim.splice(id085, 1);
+          hargaBarang_dikirim.splice(id085,1);
+          gambarBarang_dikirim.splice(id085,1);
+          jenisBarang_dikirim.splice(id085,1)
+          namaPengirim_dikirim.splice(id085,1);
+          namaPemesan_dikirim.splice(id085,1);
+          metodePembayaran_dikirim.splice(id085,1);
+        }
+  
+        function show() {
+            hapusActive();
+            belumBayar.classList.add("active");
+            pembungkus1.classList.add("d-flex");
+            pembungkus1.innerHTML = "";
+            pembungkus1.setAttribute("style", "flex-wrap:wrap");
+
+            let diskon = 0;
+            let pajak = 0;
+            let hargaTotal = 0;
+            let totalBayar = 0;            
+
+            namabarang_keranjang.forEach((elem, id3) => { 
+              
+              hargaTotal = hargaBarang_keranjang[id3]+hargaTotal;
+                  totalBayar = hargaTotal
+                  pajak = hargaTotal*10/100;
+
+                  if(totalBayar > 600_000){
+                      diskon = totalBayar*5/100
+                  } else {
+                      diskon = 0
+                  }
+                  totalBayar = hargaTotal-diskon;
+
+                  let totalBelanja = totalBayar - pajak;
+                  tampilanpajak.innerHTML = pajak;
+                  tampilandiskon.innerHTML = diskon;
+                  tampilantotalBayar.innerHTML = totalBelanja;
+
+              pembungkus1.innerHTML += ` 
+              <div class="card mb-3 border border-primary" style="width: 49%;" id="card234">
+                      <div class="row no-gutters" >
+                        <div class="col-md-4 border-right" id="bungkusGambar">
+                          <img src="img/${gambarBarang_keranjang[id3]}" alt="..." style="width:100%;" id="gambar12">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body" style="padding:1rem;">
+                            <h5 class="card-title text-dark" style="font-size: 14px;margin-top:-10px;">${namabarang_keranjang[id3]}</h5>
+                            <div class="container" style="margin-top:20px;">
+                                <div class="row">
+                                    <div class="col-4">
+                                      <p style="margin-top:-10px;color:black;font-size:13px;">Dty : 1</p>
+                                    </div>
+                                    <div class="col">
+                                      <h6 class="card-subtitle text-dark" style="font-size:14px;margin-top:-15px;margin-bottom: 12px;"><small><strike>Rp ${hargaBarang_keranjang[id3]}</strike></small></h6>
+                                      <h6 class="card-subtitle text-dark" style="font-size:15px;margin-top:-10px;">Rp ${harga1(hargaBarang_keranjang[id3])}</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                              <div class="d-flex justify-content-center" style="margin-bottom: -10px;margin-top:5px">
+                                <a href="#" class="btn btn-primary" style="margin-right:10px" onclick="bayar('${metodePembayaran[id3]}',${id3})">Bayar</a>
+                                    
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#detail" onclick="detail1(${id3})" style="margin-right:10px">Detail</button>
+
+                                <a href="#" class="btn btn-danger" onclick="deleteItem(${id3})" >Batal</a>
+                                 
+                              </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>`;
+                    
+                    const card1 = document.querySelectorAll("#card234");
+
+                    if(id3 % 2 == 1){
+                    card1[id3].classList.add("ml-2")
+                    }
+
+                    if(namabarang_keranjang.length > 4){
+                      body17.classList.add("overflow-auto");
+                    }
+
+            })
+
+            if(namabarang_keranjang.length == 0){
+                      tampilanpajak.innerHTML = 0;
+                      tampilandiskon.innerHTML = 0;
+                      tampilantotalBayar.innerHTML = 0;
+                    }
+
+          
+        }
+
+        function harga1(harga) {
+          pajak = harga*10/100;
+          var harga23 = harga-pajak;
+
+          return harga23
+        }
+
+        function deleteItem(id) {
+
+          const konfirmasi = confirm(`Anda yakin membatalkan pesanan ${namabarang_keranjang[id]}`);
+
+          if(konfirmasi === true){
+            namabarang_keranjang.splice(id, 1);
+            hargaBarang_keranjang.splice(id,1);
+            gambarBarang_keranjang.splice(id,1);
+            jenisBarang.splice(id,1)
+            namaPengirim.splice(id,1);
+            namaPemesan.splice(id,1);
+            metodePembayaran.splice(id,1);
+            show();
+
+            if(namabarang_keranjang.length == 0){
+              
+              tampilanpajak.innerHTML = 0;
+              tampilandiskon.innerHTML = 0;
+              tampilantotalBayar.innerHTML = 0; 
+
+              show()
+            }
+          }else {
+            "";
+          }
+          
+            show()
+        }
+
+        showListProduk()
+    </script>
+
+  </body>
+</html>
